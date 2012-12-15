@@ -1,0 +1,244 @@
+@font-face {
+	font-family: FuturaLT;
+	src: url('Futura LT.TTF');
+}
+@font-face {
+	font-family: FuturaLT;
+	font-weight:bold;
+	src: url('FLTBLD.TTF') format("truetype");
+}
+html {
+	background: -moz-linear-gradient(top, #003375 0px, #3C679D 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#003375), color-stop(300px,#3C679D));
+	background: -webkit-linear-gradient(top, #003375 0px,#3C679D 100%);
+	background: -o-linear-gradient(top, #003375 0px,#3C679D 300px);
+	background: -ms-linear-gradient(top, #003375 0px,#3C679D 300px);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003375', endColorstr='#3C679D',GradientType=0 );background: linear-gradient(top, #003375 0px,#3C679D 300px);
+	background-repeat: repeat-x;
+	background-color:#3C679D;
+}
+div.main {
+	margin:0px auto;
+	width:960px;
+}
+form {
+	margin:auto;
+	width:auto;
+	height:auto;
+	font-family:FuturaLT;
+}
+div.headerimage {
+	margin:0px auto;
+	width:450px;
+	height:124px;
+	background-image:url('header.png');
+}
+div.skylineimage {
+	margin:0px auto;
+	width:960px;
+	height:110px;
+	background-image:url('skyline.png');
+}
+div.title {
+	margin:0px auto;
+	position:relative;
+	top:55px;
+	font-family:FuturaLT;
+	font-size:16px;
+	line-height:55px;
+	color:#003375;
+	text-align:center;
+}
+div.content {
+	padding:10px;
+	background-color:white;
+	width:940px;
+}
+div.instruct {
+	text-align:right;
+	font-family:FuturaLT;
+	font-size:19pt;
+	position:relative;
+	width:350px;
+}
+div.browseinstruct {
+	text-align:left;
+	font-family:FuturaLT;
+	font-size:19pt;
+	position:relative;
+	top:-66px;
+	left:600px;
+	width:250px;
+}
+div.error
+{
+	font-family:FuturaLT;
+	text-align:center;
+	font-size:14pt;
+	background-color:#FF4d4D;
+	width:400px;
+	margin:auto;
+}
+input.field {
+	width:225px;
+	height:30px;
+	font-size:19pt;
+	position:relative;
+	top:-33px;
+	left:356px;
+	font-family:FuturaLT;
+}
+input.field2 {
+	width:225px;
+	height:30px;
+	font-size:19pt;
+	font-family:FuturaLT;
+}
+input.field:focus {
+	outline:none;
+}
+div.list {
+	margin:0px auto;
+	overflow:hidden;
+	height:0px;
+	width:800px;
+	border:1px black;
+}
+div.item {
+	margin:0px auto;
+	background-image:url('item.png');
+	width:654px;
+	height:100px;
+}
+div.category {
+	margin:0px auto;
+	background-image:url('item.png');
+	width:654px;
+	height:100px;
+	cursor: pointer;
+}
+div.itemtop {
+	margin:0px auto;
+	background-image:url('itemtop.png');
+	width:654px;
+	height:9px;
+}
+div.itembottom {
+	margin:0px auto;
+	background-image:url('itembottom.png');
+	width:654px;
+	height:9px;
+}
+img.image {
+	width:80px;
+	height:80px;
+	padding:10px 19px;
+	float:left;
+}
+div.listname {
+	padding:20px 20px 0px 0px;
+	float:left;
+	font-family:FuturaLT;
+	font-size:20pt;
+}
+div.found {
+	margin:0px auto;
+	width:636px;
+	font-family:FuturaLT;
+	font-size:18pt;
+}
+div.listdetails {
+	font-size:14pt;
+	position:relative;
+	top:8px;
+}
+a:link,a:visited,a:hover,a:active {
+	color:black;
+	text-decoration:none;
+}
+form.browseform {
+	margin:0px;
+}
+span.checkoutlink {
+	cursor: pointer;
+}
+input.checkout {
+	width:40px;
+	height:20px;
+	font-size:14pt;
+	font-family:FuturaLT;
+}
+input.checkout:focus {
+	outline:none;
+}
+div.checkout {
+	margin:0px auto;
+	overflow:hidden;
+	width:800px;
+	border:1px black;
+	cursor: pointer;
+}
+table
+{
+	margin:auto;
+	font-family:FuturaLT;
+	width:auto;
+	height:auto;
+	border:1px black;
+	border-collapse:collapse;
+}
+table th
+{
+	background-color: #929FB4;
+	font-family:FuturaLT;
+	font-weight:normal;
+}
+
+input.loginbox    {
+display:block;
+border: 1px solid #999;
+margin:5px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+padding: 7px 5px 7px 5px;
+}
+input.loginbox:focus {
+	border-color: #56B4EF;
+	outline:0;
+	-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,.05) 0 0 8px rgba(82,168,236,.6);
+	-moz-box-shadow:inset 0 1px 3px rgba(0,0,0,.05) 0 0 8px rgba(82,168,236,.6);
+	box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+}
+
+
+input.loginbutton
+{
+display:block;
+border: 1px solid blue;
+background-color:#DBDBDB;
+height:35px;
+width:80px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+input.loginbutton:hover
+{
+display:block;
+border: 1px solid blue;
+background-color:#9CD9FF;
+height:35px;
+width:80px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+div.footer {
+	background: #333;
+	width: 940px;
+	border: 10px solid #333;
+	margin-left: auto;
+	margin-right: auto;
+}
